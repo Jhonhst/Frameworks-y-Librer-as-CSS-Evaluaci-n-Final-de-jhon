@@ -1,0 +1,96 @@
+body
+{
+  background-color: blue;
+
+
+}
+
+
+.row
+{
+background-color: #FFFFFF;
+}
+
+.container
+{
+  background-color: #8A0808;
+  padding: 0px 0px 0px 0px;
+}
+
+.media
+{
+  background-color: #FFFFFF
+}
+
+.img-artista {
+  width: 100%;
+min-height: 150px;
+  max-width:200px;
+}
+
+.cabecera {
+background: green;
+  min-height: 150px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}
+
+.inner-addon {
+  position: relative;
+}
+
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 17px;
+  pointer-events: none;
+}
+
+.left-addon .glyphicon  {
+    left:  0px;
+}
+
+
+.right-addon .glyphicon {
+     right: 0px;
+}
+
+
+.left-addon input  {
+     padding-left:  30px;
+}
+
+
+.right-addon input {
+     padding-right: 30px;
+}
+
+
+.navbar {
+display: table;
+width: 100%;
+margin-bottom: 0;
+background-color: #808080;
+z-index: 9999;
+border: 0;
+font-size: 12px !important;
+line-height: 1.42857143 !important;
+letter-spacing: 4px;
+border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+display: table;
+width: 100%;
+text-align: center;
+color: #000 !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+color: #FAAC58 !important;
+background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+border-color: transparent;
+color: #fff !important;
+}
